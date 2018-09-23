@@ -1,0 +1,141 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.board h1 {
+  border-bottom: 7px double #72b57d;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  letter-spacing: 8px;
+  line-height: 64px;
+  margin: 40px auto;
+  padding-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 450px;
+}
+
+.create-column {
+  background-color: #92e8a1;
+  border: 1px solid #92e8a1;
+  border-radius: 10px;
+  color: #000;
+  display: block;
+  font-size: 18px;
+  height: 55px;
+  margin: 0 auto;
+  width: 150px;
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+
+  p {
+    float: left;
+    margin: 0;
+  }
+}
+.create-column:hover {
+  background-color: #72b57d;
+  color: #fff;
+  transition: .3s;
+}
+
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.column {
+  align-items: center;
+  background-color: #92e8a1;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+  flex: 1;
+  justify-content: center;
+  margin: 0px 25px 30px;
+  max-width: 280px;
+  min-height: 320px;
+  min-width: 280px;
+}
+
+.column-title {
+  border-bottom: 7px double white;
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 65px;
+  margin-bottom: 16px;
+  margin-top: -25px;
+  text-align: center;
+}
+
+.column-card-list {
+  list-style-type: none;
+  min-height: 200px;
+  padding: 5px;
+}
+
+.btn-delete {
+  background-color: #92e8a1;
+  border: none;
+  font-size: 20px;
+  margin-left: calc(100% - 40px);
+  margin-top: 12px;
+}
+
+.add-card {
+  font-size: 32px;
+  color: white;
+  background-color: #92e8a1;
+  line-height: 0px;
+  margin-left: 15px;
+  border: none;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  list-style-type: none;
+  margin: 10px;
+  min-height: 25px;
+  padding: 2px 0;
+}
+
+.card-description {
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+  margin: 10px 50px;
+  width: 75%;
+}
+
+.card-delete {
+  background-color: #FFF;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 11px;
+  text-transform: uppercase;
+}
+
+.card-placeholder {
+  background-color: rgba(39, 215, 39, 0.15);
+  border: 1px dotted rgba(8, 26, 8, 0.53);
+  border-radius: 5px;
+}
+
+.edit {
+  background-color: #FFF;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-top: -29px;
+  text-transform: uppercase;
+}
